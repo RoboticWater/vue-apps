@@ -97,7 +97,7 @@ export default [{//["HubsTest1", "HubsTest2"].map((name, index) => ({
       replace({
           preventAssignment: true,
           'process.env.NODE_ENV': JSON.stringify( 'production' ),
-          'https://resources.realitymedia.digital/vue-apps/': componentPath,
+          'https://britti.page/vue-apps/': componentPath,
           'var vueComponents = (': 'export const vueComponents = (',
 
       }),
