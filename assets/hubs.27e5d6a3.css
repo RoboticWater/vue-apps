@@ -205,3 +205,21 @@ a[data-v-051ea7d4] {
   color: #a78e06;
   background: #9803a5;
 }
+
+.viewer[data-v-225d6506] {
+  width: 640px;
+  height: 480px;
+  animation: intro-225d6506 1s cubic-bezier(0.58, 0.09, 0.21, 0.99);
+  border: 2px solid #f00;
+}
+.viewer[data-v-225d6506]:hover {
+  background: #ff0;
+}
+@keyframes intro-225d6506 {
+0% {
+    transform: scale(0);
+}
+100% {
+    transform: scale(1);
+}
+}

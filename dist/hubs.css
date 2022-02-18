@@ -1,4 +1,22 @@
 
+.viewer[data-v-2b8f27d4] {
+  width: 640px;
+  height: 480px;
+  animation: intro-2b8f27d4 1s cubic-bezier(0.58, 0.09, 0.21, 0.99);
+  border: 2px solid #f00;
+}
+.viewer[data-v-2b8f27d4]:hover {
+  background: #ff0;
+}
+@keyframes intro-2b8f27d4 {
+0% {
+    transform: scale(0);
+}
+100% {
+    transform: scale(1);
+}
+}
+
 #edit[data-v-91ee6202] {
   color: #bea7d1;
 }
