@@ -28,7 +28,7 @@ import Apparizione from "./src/apps/Room5/Apparizione/hubs";
 import Minecraft from "./src/apps/Room5/Minecraft/hubs";
 import GamesBanner from "./src/apps/Room5/GamesBanner/hubs";
 import ArtBanner from "./src/apps/Room5/ArtBanner/hubs";
-import TestVueComponent from "src/apps/Test_Vue_Component/hubs";
+import TestVueComponent from "./src/apps/Test_Vue_Component/hubs";
 import { initializeEthereal, systemTick } from "./src/apps/HubsApp";
 
 // Presence and Aura Room
