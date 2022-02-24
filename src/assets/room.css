@@ -1,135 +1,151 @@
 /* Now, our styles */
 
 #room {
-    font-family: Avenir,  Arial, Helvetica, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #f2e6e5;
-    /* margin: 30px; */
-    border: 5px;
-    border-radius: 10px;
-    border-color: red;
-    /* position: absolute; */
-    display: block;
-    /* background-color: transparent;   */
-    background-color: black; 
- }
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #f2e6e5;
+  /* margin: 30px; */
+  border: 5px;
+  border-radius: 10px;
+  border-color: red;
+  /* position: absolute; */
+  display: block;
+  /* background-color: transparent;   */
+  background-color: black;
+}
+
+.viewer {
+  width: 640px;
+  height: 480px;
+  animation: intro 1s cubic-bezier(0.58, 0.09, 0.21, 0.99);
+  border: 2px solid #f00;
+}
+.viewer:hover {
+  background: #ff0;
+}
+@keyframes intro {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 
 #room.darkwall {
-    background-color: transparent;  
+  background-color: transparent;
 }
 
 #room.lightwall {
-    background-color: transparent;  
-    color: #1f1d1d;
+  background-color: transparent;
+  color: #1f1d1d;
 }
- 
-#room h2{
+
+#room h2 {
   font-size: 1.5em;
   font-weight: bold;
-
 }
 
-#room .headline{
+#room .headline {
   font-size: 4em;
 }
 
 #room .center {
   margin: 30px;
   padding-left: 25px;
-  }
-
-#room .postertitle  {
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
 }
 
-  #room .spacer {
-    /* margin-left: 25px;
+#room .postertitle {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+#room .spacer {
+  /* margin-left: 25px;
     margin-right: 25px; */
-    margin: 25px;
-    }
+  margin: 25px;
+}
 
-  #room .squareoff {
-    text-align: justify;
-    }
+#room .squareoff {
+  text-align: justify;
+}
 
-  .column {
-      float: left;
-      width: 50%;
-      padding: 10px;
-    }
-  
-/* Clear floats after the columns */ 
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-    }  
-    
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* JP */
-   /* adding margin only to the side */
-   #room .spacer-side {
-    margin-left: auto;
-    margin-right: auto;
-    }
+/* adding margin only to the side */
+#room .spacer-side {
+  margin-left: auto;
+  margin-right: auto;
+}
 
-    /*font styles*/
-    .oblique {
-      font-style:italic;
-    }
-    
-    .quote {
-      padding-left: 2.5rem;
-      padding-right: 2.5rem;
-      color: #DCDCDC;
-    }
-    
-    .keyPoint {
-      color: #78cfa8;
-      font-weight: bold;
-    }
-    .largerText{
-      font-size: 3em;
-    }
+/*font styles*/
+.oblique {
+  font-style: italic;
+}
 
-    /*sizing image*/
-    .full {
-      padding: 0;
-      margin:0;
-      width: 100%;
-      height: auto;
-    }
+.quote {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  color: #dcdcdc;
+}
 
-    /* label vue-app */
-    .labelTitle {
-      font-size:1.2em;
-      font-weight: bold;
-      line-height: 1.6;
-    }
-    .labelLgTitle{
-      font-size:6em;
-      font-weight: bold;
-    }
-    .labelLgBody{
-      font-size:5em;
-    }
-    
-    /* title vue-app */
-    .titleStyle {
-      font-size:2em;
-      font-weight: bold;
-      line-height: 1.6;
-    }
-    .webIframe {
-      position: fixed;
-      left:-200px;
-      top:-120px;
-    }
- 
+.keyPoint {
+  color: #78cfa8;
+  font-weight: bold;
+}
+.largerText {
+  font-size: 3em;
+}
+
+/*sizing image*/
+.full {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+
+/* label vue-app */
+.labelTitle {
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 1.6;
+}
+.labelLgTitle {
+  font-size: 6em;
+  font-weight: bold;
+}
+.labelLgBody {
+  font-size: 5em;
+}
+
+/* title vue-app */
+.titleStyle {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1.6;
+}
+.webIframe {
+  position: fixed;
+  left: -200px;
+  top: -120px;
+}
