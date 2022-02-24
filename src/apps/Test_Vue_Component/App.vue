@@ -4,9 +4,10 @@
 	<img src="../../assets/images/rotunda-map.png" width="250" >
 	<div class="displaytext">AR allows us to extend our physical reality; VR creates for us a different reality.</div>
   </div>  -->
-  <Title msg="Test Vue Component" />
   <div id="room" class="darkwall">
-  <div class="viewer"></div>
+    <Title msg="Test Vue Component" />
+    <div class="viewer"></div>
+  </div>
 </template>
 
 <script setup>
