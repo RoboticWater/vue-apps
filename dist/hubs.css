@@ -1,14 +1,14 @@
 
-.viewer[data-v-699aa3ec] {
+.viewer[data-v-77bb6834] {
   width: 640px;
   height: 480px;
-  animation: intro-699aa3ec 1s cubic-bezier(0.58, 0.09, 0.21, 0.99);
+  animation: intro-77bb6834 1s cubic-bezier(0.58, 0.09, 0.21, 0.99);
   border: 2px solid #f00;
 }
-.viewer[data-v-699aa3ec]:hover {
+.viewer[data-v-77bb6834]:hover {
   background: #ff0;
 }
-@keyframes intro-699aa3ec {
+@keyframes intro-77bb6834 {
 0% {
     transform: scale(0);
 }
