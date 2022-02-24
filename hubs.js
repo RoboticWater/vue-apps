@@ -13,6 +13,6 @@ popScopeId();
 var App_vue_vue_type_style_index_0_scoped_true_lang$1 = "\n.fakeButton[data-v-181ce8e0] {\n  color: #9803a5;\n  background: #a78e06;\n  /* transition: color 1s; */\n}\n.fakeButton[data-v-181ce8e0]:hover {\n  color: #a78e06;\n  background: #9803a5;\n}\n";
 pushScopeId("data-v-181ce8e0");
 popScopeId();
-var App_vue_vue_type_style_index_0_scoped_true_lang = "\n.viewer[data-v-225d6506] {\n  width: 640px;\n  height: 480px;\n  animation: intro-225d6506 1s cubic-bezier(0.58, 0.09, 0.21, 0.99);\n  border: 2px solid #f00;\n}\n.viewer[data-v-225d6506]:hover {\n  background: #ff0;\n}\n@keyframes intro-225d6506 {\n0% {\n    transform: scale(0);\n}\n100% {\n    transform: scale(1);\n}\n}\n";
-pushScopeId("data-v-225d6506");
+var App_vue_vue_type_style_index_0_scoped_true_lang = "\n.viewer[data-v-8939a1cc] {\n  width: 640px;\n  height: 480px;\n  animation: intro-8939a1cc 1s cubic-bezier(0.58, 0.09, 0.21, 0.99);\n  border: 2px solid #f00;\n}\n.viewer[data-v-8939a1cc]:hover {\n  background: #ff0;\n}\n@keyframes intro-8939a1cc {\n0% {\n    transform: scale(0);\n}\n100% {\n    transform: scale(1);\n}\n}\n";
+pushScopeId("data-v-8939a1cc");
 popScopeId();

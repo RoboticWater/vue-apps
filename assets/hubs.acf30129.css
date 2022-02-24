@@ -206,16 +206,16 @@ a[data-v-051ea7d4] {
   background: #9803a5;
 }
 
-.viewer[data-v-225d6506] {
+.viewer[data-v-8939a1cc] {
   width: 640px;
   height: 480px;
-  animation: intro-225d6506 1s cubic-bezier(0.58, 0.09, 0.21, 0.99);
+  animation: intro-8939a1cc 1s cubic-bezier(0.58, 0.09, 0.21, 0.99);
   border: 2px solid #f00;
 }
-.viewer[data-v-225d6506]:hover {
+.viewer[data-v-8939a1cc]:hover {
   background: #ff0;
 }
-@keyframes intro-225d6506 {
+@keyframes intro-8939a1cc {
 0% {
     transform: scale(0);
 }
